@@ -336,8 +336,6 @@ img {
 }
 
 .team-soc-link {
-  width: 100%;
-  height: 100%;
 }
 
 .team-soc-list {
@@ -482,8 +480,6 @@ img {
   gap: 16px;
   flex-shrink: 0;
   align-self: flex-end;
-  width: 100%;
-  height: 100%;
 }
 
 .social-soc-item {
