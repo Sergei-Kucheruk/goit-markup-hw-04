@@ -34,9 +34,16 @@ img {
   max-width: 100%;
 }
 
-/* -----------------Page-----------------*/
+:hover {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-.page-header {
+:focus {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* -----------------Page-----------------*/
+323 .page-header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -337,14 +344,6 @@ img {
 }
 
 .team-soc-link {
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-list {
@@ -357,6 +356,14 @@ img {
 }
 
 .team-soc-item {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-soc-item:hover,
@@ -475,14 +482,6 @@ img {
 }
 
 .social-link {
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-soc-list {
@@ -495,6 +494,14 @@ img {
 }
 
 .social-soc-item {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-soc-icona {
