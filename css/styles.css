@@ -333,11 +333,11 @@ img {
 
 .soc-icona {
   fill: #f4f4fd;
-  width: 100%;
-  height: 100%;
 }
 
 .team-soc-link {
+  width: 100%;
+  height: 100%;
 }
 
 .team-soc-list {
@@ -347,8 +347,6 @@ img {
   gap: 24px;
   flex-shrink: 0;
   align-self: flex-end;
-  width: 100%;
-  height: 100%;
 }
 
 .team-soc-item {
