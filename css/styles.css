@@ -94,7 +94,6 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-item {
@@ -107,6 +106,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
@@ -165,6 +165,10 @@ img {
 .contacts-link:focus,
 .nav-link.current {
   color: #404bbf;
+}
+
+.current {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -----------------HERO-----------------*/
@@ -343,13 +347,11 @@ img {
   gap: 24px;
   flex-shrink: 0;
   align-self: flex-end;
-  width: 232px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
 }
 
 .team-soc-item {
-  width: 100%;
-  height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
@@ -479,15 +481,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
   flex-shrink: 0;
   align-self: flex-end;
-  width: 232px;
-  height: 40px;
-}
-.social-soc-item {
   width: 100%;
   height: 100%;
+}
+
+.social-soc-item {
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
